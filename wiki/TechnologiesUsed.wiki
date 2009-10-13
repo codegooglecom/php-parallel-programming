@@ -1,12 +1,12 @@
+= PHP/C++=
 
-= Introduction =
-
-Add your content here.
+PHP and C++ together make the multiple script execution possible.
 
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+PHP will handle the code level interaction in PHP scripts. PHP creates a commands XML, and run the C++ engine. C++ engine reads the commands from XML and create the forks for all the commands passing required parameters. The calling script can execute in parallel in different processes. 
+
+The script can process independent logic or can use the forking handler that redirects the script output to specific output files.
+
+= Future Roadmap =
