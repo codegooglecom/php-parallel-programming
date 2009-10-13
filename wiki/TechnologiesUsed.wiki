@@ -10,3 +10,11 @@ PHP will handle the code level interaction in PHP scripts. PHP creates a command
 The script can process independent logic or can use the forking handler that redirects the script output to specific output files.
 
 = Future Roadmap =
+
+There is scope of refinement, making C++ code efficient and standardizing the C++ engine and PHP communication.
+Some of the feature in future roadmap:
+  * controlling the child processes to limit the memory use
+  * security issue, only caller has privileges to read output
+  * PHP extension - creating the PHP extension so no PHP code is needed
+  * passing $_REQUEST parameters to child scripts
+  * handling output in child script using streams instead to shutdown register function and buffer controlling
