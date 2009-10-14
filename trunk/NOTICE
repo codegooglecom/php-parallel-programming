@@ -1,0 +1,10 @@
+PHP parallel processing library currently supports only synchronous forking on *unix platforms.
+
+Future roadmap:
+ - Windows platform support
+ - Asynchronous parallel processing
+ - Control number of parallel processes instead of forking large number of command scripts
+ - Handling killed/terminated processes
+ - Better error exception handling
+ 
+

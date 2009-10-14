@@ -1,0 +1,12 @@
+To use this Library, please chamge some settings.
+PHP settings:
+	ForkerManager::$FORKER_DIR, the directory where library is copied
+	ForkerManager::$PATH, the PHP executable path
+
+C++ settings
+	FORKER_DIR, the directory where library is copied
+	PATH, the PHP executable path
+
+
+To test library, run synchronous-forker.php and asynchronous-forker.php. For results check log.txt file.
+
