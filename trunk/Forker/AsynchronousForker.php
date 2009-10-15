@@ -20,7 +20,8 @@ under the License.
 
 
 $GUID = $argv[1];
-require_once("Forker/ForkerManager.inc.php");
+require_once("../Forker/Defines.inc.php");
+require_once(FORKER_HOME_DIR . "/Forker/ForkerManager.inc.php");
 
 $commandFile = ForkerManager::getCommandsFile($GUID);
 
